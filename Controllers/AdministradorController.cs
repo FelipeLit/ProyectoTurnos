@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using ProyectoEmpleado.Data;
+using ProyectoTurnos.Data;
 
 namespace ProyectoTurnos.Controllers
 {

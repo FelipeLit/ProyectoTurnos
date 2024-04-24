@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProyectoTurnos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f76faf5c1c50678f990e658894790f847ed8d546")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7157b64c04549f4d7eb70d9b6fb3be70b8f6fe28")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProyectoTurnos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProyectoTurnos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
