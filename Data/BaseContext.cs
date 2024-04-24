@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using ProyectoEmpleado.Models;
+using ProyectoTurnos.Models;
 
-namespace ProyectoEmpleado.Data
+namespace ProyectoTurnos.Data
 {
     public class BaseContext : DbContext
     {

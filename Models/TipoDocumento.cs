@@ -1,4 +1,4 @@
-namespace ProyectoEmpleado.Models
+namespace ProyectoTurnos.Models
 {
     public class TipoDocumento
     {
