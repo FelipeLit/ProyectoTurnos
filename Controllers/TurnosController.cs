@@ -15,11 +15,11 @@ namespace ProyectoTurnos.Controllers
 
         public async Task<IActionResult> Index(int id)
         {
-            var user = await _context.Usuarios.FirstOrDefaultAsync(u=>u.Id == id);
-            if(user != null)
-            {
-                HttpContext.Session.SetInt32("IdUsuario", user.Id);
-            }
+            // var user = await _context.Usuarios.FirstOrDefaultAsync(u=>u.Id == id);
+            // if(user != null)
+            // {
+            //     HttpContext.Session.SetInt32("IdUsuario", user.Id);
+            // }
             return View();
         }
 
