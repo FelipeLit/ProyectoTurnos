@@ -1,7 +1,17 @@
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.EntityFrameworkCore;
+using ProyectoEmpleado.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<BaseContext>(options =>
+    options.UseMySql(
+        builder.Configuration.GetConnectionString("mySqlConnection"),
+        Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.2")));
+
 
 var app = builder.Build();
 
